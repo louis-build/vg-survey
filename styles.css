@@ -1,0 +1,54 @@
+body{
+  background-image: url(https://img5.goodfon.com/wallpaper/nbig/f/e1/tsvet-forma-fon-230.jpg);
+  font-family: tahoma; 
+  color: #f2eae8;
+}
+
+.header{
+  margin: auto;
+  text-align: center;
+}
+
+#f1{ 
+  width: 60%;
+  margin: auto;
+  background-color: rgba(102, 102, 153, 0.7)
+  
+}
+
+label{ 
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#number,
+#name,
+#email,
+select{
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 7px;
+  font-family: inherit;
+  height: 25px;
+}
+
+p{
+  text-align: center;
+}
+.vgWhy{
+  margin-right: 10px;
+}
+
+#favgame{
+  width: 100%;
+  height: 50px;
+  font-family: inherit;
+}
+
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  font-family: inherit;
+}

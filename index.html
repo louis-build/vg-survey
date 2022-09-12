@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Game Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="Feedback Survey" content="Video Game">
+    <meta name="viewport" content=""width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div class="header">
+    <h1 id="title">Video Game Survey</h1>
+    <p id="description">Tell us about your favourite video games!</p></div>
+    <form id="survey-form">
+    <fieldset id="f1">
+    <label id="name-label">Name </label><input id="name" type="text" placeholder="Enter your name" required /> 
+  <label id="number-label">Age</label> <input id="number" type="number" min="10" max="120" placeholder="Your age"/>
+  <label id="email-label">Email Address</label><input id="email" type="email" placeholder="Enter your email address" required />
+
+  <hr>
+
+<p>What's your favourite genre of video game?</p>
+<input type="radio" id="rpg" name="genre" value="RPG">
+<label for="rpg">RPG</label><br>
+<input type="radio" id="fps" name="genre" value="FPS">
+<label for="fps">FPS</label><br>
+<input type="radio" id="racing" name="genre" value="Racing">
+<label for="racing">Racing</label><br>
+<input type="radio" id="sport" name="genre" value="Sport">
+<label for="sport">Sport</label><br>
+<input type="radio" id="adventure" name="genre" value="Adventure">
+<label for="adventure">Adventure</label><br>
+<p>Why do you play video games? (tick all that apply)</p>
+<label><input type="checkbox" class="vgWhy" value="for-fun">For fun</input></label><br>
+<label><input type="checkbox" class="vgWhy" value="to-relax">To relax</input></label><br>
+<label><input type="checkbox" class="vgWhy" value="for-the-challenge">For a challenge</input></label><br>
+<label><input type="checkbox" class="vgWhy" value="to-bond-with-family">To bond with family</input></label><br>
+<label><input type="checkbox" class="vgWhy" value="other">Other</input></label><br>
+<p>How often do you play video games?</p>
+<select id="dropdown">
+  <option value="" disabled selected>Please select</option>
+  <option value="1">Once a week</option>
+  <option value="2">Twice a week</option>
+  <option value="3">Three times a week</option>
+  <option value="4">More than four times a week</option></select>
+<p>What's your favourite game?</p>
+<textarea id="favgame" placeholder="Enter your favourite game here..."></textarea>
+<button id="submit">Submit!</button>
+  </form>
+  </body>
+</html>
